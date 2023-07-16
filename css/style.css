@@ -1,0 +1,431 @@
+/*font start*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500&display=swap');
+/*font end*/
+/* common start */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/*common end*/
+/*header start*/
+header {}
+.logo {
+	font-size: 35px;
+}
+.menu {}
+.menu ul li{}
+.menu ul li a {
+	color: #8e8e8e;
+	transition: .33s;
+}
+.menu ul li a:hover {
+	color: #333333;
+}
+.n_tglr:focus {
+   box-shadow: none;
+}
+.btn_dd {
+	border: 0;
+}
+.btn_dd i {
+	font-size: 16px;
+	color: #8e8e8e;
+}
+.btn_dd::after {
+	display: none;
+} 
+.dd_menu {
+	width: 300px;
+	border-radius: 0;
+	padding: 10px 10px;
+}
+.dd_menu[data-bs-popper] {
+    top: 53px;
+    left: -270px;
+    margin-top: 0;
+}
+.d_input {
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border: 0;
+}
+.d_input:focus {
+	box-shadow: none;
+}
+.d_btn {
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border: 0;
+}
+/*header end*/
+/*slider start*/
+.slider {
+	background-image: url(../images/nipro.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slider_item {
+    color: white;
+}
+.slider_h1 {
+	font-size: 60px;
+	margin: 200px 0 45px;
+}
+.slider_p {
+	margin-bottom: 50px;
+	line-height: 30px;
+
+}
+.slider_btn {
+	font-size: 16px;
+	margin-bottom: 200px;
+	transition: .33s;
+}
+.slider_btn:hover {
+	background-color: #8e8e8e;
+}
+.slider_btn2 {
+	background-color: transparent;
+	border: 0;
+}
+/*slider end*/
+/*welcome start*/
+.costom_h2 {
+	font-size: 29px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #333333;
+}
+.wel_wd {
+	padding: 80px 0 50px;
+}
+.wel_text {
+	padding-bottom: 130px;
+}
+.wel_p {
+	line-height: 30px;
+}
+/*welcome end*/
+/*nipro item start*/
+.item_box {
+	margin-bottom: 100px;
+	border: 1px solid #8e8e8e;
+}
+.item_img {
+	margin: -25px;
+	padding: 0 0 38px;
+}
+.item_h3 {
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 0 20px;
+	color: #333333;
+	border-bottom: 3px solid #8e8e8e;
+	
+}
+.item_p {
+	padding: 12px 30px 45px;
+}
+.item_btn {
+	padding: 0 0 36px;
+	border: 0;
+	background-color: transparent;
+	color: #8e8e8e;
+}
+/*nipro item end*/
+/*about start*/
+.about {}
+.about_img {}
+.about_img img {
+	width: 100%;
+}
+.about_h3 {
+	    
+	padding: 0 0 40px 14px;
+}
+.about_p {
+	padding: 10px;
+	padding-bottom: 34px;
+}
+.about_btn {
+	margin-left: 8px;
+    background-color: transparent;
+    transition: .33s;
+}
+.about_btn:hover {
+	background-color: #8e8e8e;
+}
+/*about end*/
+/*recent start*/
+.recent {
+	padding-bottom: 70px;
+	background-color: #F8F8F8;
+}
+.recent_h {}
+.recent_h2 {
+	padding: 80px 0 110px;
+}
+.recent_list ul li {
+	padding: 0 32px 38px 0;
+}
+
+.recent_list li a {
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #8e8e8e;
+	transition: .33s;
+}
+.recent_list li a:hover {
+	color: black;
+	border: 2px solid black;
+}
+.recent_item_a {
+	padding: 0 0 70px;
+}
+.recent_img {
+	padding: 0 0 30px;
+}
+.recent_img img {
+	width: 100%;
+}
+/*recent end*/
+/*choose start*/
+.choose {
+
+}
+.choose_h2 {}
+.choose_txt {}
+.choose_img {}
+.choose_img img {
+	width: 100%;
+}
+.choose_txt {
+	padding: 8px 0 40px;
+}
+.choose_h3 {
+	font-size: 25px;
+	font-weight: 400;
+	color: ;
+}
+.choose_p {
+	padding: 0 0 38px;
+    line-height: 27px;
+    border-bottom: 3px solid #8e8e8e;
+}
+.item_btm {
+	padding-bottom: 42px;
+}
+.choose_txt:hover {
+	color: #333333;
+}
+.choose_p:hover {
+	border-bottom: 3px solid #333333;
+}
+
+/*choose end*/
+/*Work start*/
+.work {
+	padding-bottom: 45px;
+	background-size: cover;
+    background-image: url(../images/backgroud_2.jpg);
+}
+.work_h2 {
+	color: #333333;
+}
+.work_bg {
+	background-color: white;
+}
+.work_img {}
+.work_img img {
+	width: 100%;
+}
+.work_h3 {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: black; !important;
+}
+.work_p {
+	padding: 0 0 22px;
+}
+/*Work end*/
+/*price start*/
+.price {
+	padding: 0 0 95px;
+}
+.price_2 {}
+.price_itm {
+	padding: 0 0 40px;
+	border: 1px solid #8e8e8e;
+}
+.price_b {
+    
+}
+.price_h3 {
+	padding-left: 12px;
+	font-size: 22px;
+    color: #333333
+}
+.price_p {
+	padding-left: 12px;
+}
+.price_p span {
+	font-size: 22px;
+	color: #333333;
+}
+.price_itm ul li {
+	padding-left: 12px;
+	line-height: 40px;
+}
+.price_btn {
+	padding-left: 12px;
+}
+/*price end*/
+/*templete start*/
+.templete {
+	margin-bottom: 95px;
+	background-color: #8e8e8e;
+}
+.temp {
+	overflow: hidden;
+}
+.temp_text {}
+.temp_text p {
+	font-size: 20px;
+	padding: 40px 0;
+	color: #333333;
+}
+.temp_button {
+	float: right;
+	padding: 40px 0;
+}
+.temp_btn {}
+.temp_btn:hover {
+	background-color: white;
+}
+/*templete end*/
+/*temp-item start*/
+.temp_item {
+	padding-bottom: 100px;
+}
+.rayhan_img {}
+.rayhan_img img {
+	width: 100%;
+}
+.rayhan_about {
+}
+.first_itm {
+	border: 1px solid black;
+}
+.rayhan_about h3 {
+	font-size: 22px;
+	color: #333333;
+}
+.rayhan_about p {
+	line-height: 26px;
+}
+.rayhan_ph {
+	font-size: 18px;
+	color: #8e8e8e;
+}
+.rayhan_pc {
+	color: #333333;
+}
+.bb {
+	padding: 30px 0;
+	border: 1px solid #8e8e8e;
+}
+.rayhan_btn {
+	float: right;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #F8F8F8;
+    border: 1px solid #8e8e8e;
+}
+.r_btn {
+	margin: 61px 34px;
+}
+/*temp-item end*/
+/*form start*/
+.form {
+	padding: 0 0 100px;
+}
+.form_h2 {
+	background-color: white;
+    margin: -46px;
+}
+.name {
+	margin: 36px 20px;
+	border-bottom: 1px solid black;
+}
+.name input {
+	border: 0;
+}
+.f_brdr {
+	margin-left: 40px;
+}
+.name input p {
+	padding: 30px 0 55px;
+}
+.frm_btn {
+	margin: 36px 0;
+	background-color: white;
+}
+/*form end*/
+/*footer start*/
+footer {
+	padding: 0 0 25px;
+	background-image: url(../images/Nipro-footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}.footer_h2 {
+	padding: 38px 0;
+}
+.f_top {
+	color: white;
+}
+.f_top p {
+	padding: 50px;
+	line-height: 34px;
+}
+.footer_icon{
+    padding-top: 20px;
+    font-size: 25px;
+   }
+.footer_icon i {
+	border: 1px solid white;
+	padding: 5px ;
+}
+.footer_top1 {
+    margin-top: 90px;
+    }
+.footer_icon i:hover{
+	color: black;
+    background-color: white;
+   }
+.footer_text_p{
+    color: white;
+   }
+.footer_nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: .33s;
+   }
+.footer_nav a:hover{
+    color: ##8e8e8e;
+   }
+.icon_hover {
+    transition: .33s;	
+}
+.icon_hover:hover{
+    color: #000000 !important;
+   }
+/*footer end*/
